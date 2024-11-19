@@ -1,5 +1,5 @@
 body {
-    background-color: #1e4d2b;
+    /* background-color: #1e4d2b; */
 }
 
 /* fonts */
@@ -27,11 +27,15 @@ body {
     color: whitesmoke;
 }
 
+.navbar {
+    background-color: #1e4d2b;
+}
+
 .navbarry:hover {
     color:whitesmoke; 
 }
 /* navbar end */
 
 #color {
-    background-color: #800020;
+    background-color: white;
 }
