@@ -44,11 +44,24 @@ body {
     position: relative;
     background-image: url('green-christmas-landing.png');
     width: 100%;
-    min-height: 60vh;
+    min-height: 50vh;
     background-repeat: no-repeat;
 }
 
 
 .para {
     font-size: 20px;
+}
+
+.jamba {
+    background-size: cover;
+    min-height: 70vh;
+    position: relative;
+}
+
+.color-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .3);
+    height: 100%;
+    width: 100%;
 }
