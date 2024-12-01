@@ -77,7 +77,7 @@ body {
 /* From Uiverse.io by G4b413l */ 
 .card {
     width: 24em;
-    height: 24em;
+    height: fit-content;
     box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: all 120ms;
@@ -86,17 +86,19 @@ body {
     justify-content: center;
     background: #fff;
     padding: 0.5em;
-    padding-bottom: 3.4em;
+    background-color: #074521;
 }
 
 .card .title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.9em;
-    position: absolute;
+    font-family: 'wishes';
+    font-size: 3vw;
     left: 0.625em;
     bottom: 1.875em;
-    font-weight: 400;
-    color: #000;
+    color: orange;
+    font-weight: bold;
+    margin-top: 20px;
+
+
 }
 
 .card .price {
@@ -116,6 +118,11 @@ body {
     place-items: center;
 }
 
+.img {
+    width: auto;
+    height: fit-content;
+}
+
 
 .whs-logo {
     border-radius: 100%;
@@ -124,4 +131,9 @@ body {
 .info {
     border: 4px orange dashed;
     border-radius: 20%;
+}
+
+.shop {
+    background-color: orange;
+    border-radius: 50%;
 }
