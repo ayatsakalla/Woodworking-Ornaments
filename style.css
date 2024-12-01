@@ -101,26 +101,19 @@ body {
 
 }
 
-.card .price {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 0.9em;
-    position: absolute;
-    left: 0.625em;
-    bottom: 0.625em;
-    color: #000;
-}
-
 .image {
     background: rgb(17, 3, 3);
     width: 100%;
     height: 100%;
     display: grid;
     place-items: center;
+    border-radius: 5%;
 }
 
 .img {
     width: auto;
     height: fit-content;
+    border-radius: 5%;
 }
 
 
@@ -136,4 +129,50 @@ body {
 .shop {
     background-color: orange;
     border-radius: 50%;
+    color: #074521
+}
+
+.lol {
+    color: orange;
+    letter-spacing: 2px;
+}
+
+.order {
+    background-color: #074521;
+    color: orange;
+    font-family: 'wishes';
+    width: 100%;
+    height: auto;
+    font-size: 3vw;
+    border: none;
+    border-radius: 50%;
+}
+
+.order:hover {
+    background-color: orange;
+    color: #074521;
+}
+
+.order:active {
+    background-color: #074521;
+    color: orange;
+}
+
+.lolz {
+    font-size: 3vw;
+}
+
+footer {
+    background-color: #074521;
+    color: orange;
+    padding: 2%;
+    font-size: 1.3vw;
+}
+
+.foot {
+    color: orange;
+}
+
+.green {
+    color: #074521;
 }
